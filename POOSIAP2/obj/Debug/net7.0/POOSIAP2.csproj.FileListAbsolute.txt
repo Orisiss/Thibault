@@ -1,0 +1,15 @@
+E:\Dév\Mr Thibault\POOSIAP2\POOSIAP2\bin\Debug\net7.0\POOSIAP2.exe
+E:\Dév\Mr Thibault\POOSIAP2\POOSIAP2\bin\Debug\net7.0\POOSIAP2.deps.json
+E:\Dév\Mr Thibault\POOSIAP2\POOSIAP2\bin\Debug\net7.0\POOSIAP2.runtimeconfig.json
+E:\Dév\Mr Thibault\POOSIAP2\POOSIAP2\bin\Debug\net7.0\POOSIAP2.dll
+E:\Dév\Mr Thibault\POOSIAP2\POOSIAP2\bin\Debug\net7.0\POOSIAP2.pdb
+E:\Dév\Mr Thibault\POOSIAP2\POOSIAP2\obj\Debug\net7.0\POOSIAP2.csproj.AssemblyReference.cache
+E:\Dév\Mr Thibault\POOSIAP2\POOSIAP2\obj\Debug\net7.0\POOSIAP2.GeneratedMSBuildEditorConfig.editorconfig
+E:\Dév\Mr Thibault\POOSIAP2\POOSIAP2\obj\Debug\net7.0\POOSIAP2.AssemblyInfoInputs.cache
+E:\Dév\Mr Thibault\POOSIAP2\POOSIAP2\obj\Debug\net7.0\POOSIAP2.AssemblyInfo.cs
+E:\Dév\Mr Thibault\POOSIAP2\POOSIAP2\obj\Debug\net7.0\POOSIAP2.csproj.CoreCompileInputs.cache
+E:\Dév\Mr Thibault\POOSIAP2\POOSIAP2\obj\Debug\net7.0\POOSIAP2.dll
+E:\Dév\Mr Thibault\POOSIAP2\POOSIAP2\obj\Debug\net7.0\refint\POOSIAP2.dll
+E:\Dév\Mr Thibault\POOSIAP2\POOSIAP2\obj\Debug\net7.0\POOSIAP2.pdb
+E:\Dév\Mr Thibault\POOSIAP2\POOSIAP2\obj\Debug\net7.0\POOSIAP2.genruntimeconfig.cache
+E:\Dév\Mr Thibault\POOSIAP2\POOSIAP2\obj\Debug\net7.0\ref\POOSIAP2.dll
