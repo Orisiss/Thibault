@@ -1,20 +1,21 @@
 ﻿class Article
 {
-    public int Reference { get; set; }
+    public string NumeroReference { get; private set; }
     public string Nom { get; set; }
-    public decimal PrixVente { get; set; }
-    public int QuantiteEnStock { get; set; }
+    public double PrixVente { get; set; }
+    public int QuantiteStock { get; set; }
 
-    public Article(int reference, string nom, decimal prixVente, int quantiteEnStock)
+    public Article(string numeroReference, string nom, double prixVente, int quantiteStock)
     {
-        Reference = reference;
+        NumeroReference = numeroReference;
         Nom = nom;
         PrixVente = prixVente;
-        QuantiteEnStock = quantiteEnStock;
+        QuantiteStock = quantiteStock;
     }
 
+    // Méthode ToString pour afficher l'article
     public override string ToString()
     {
-        return $"Reference: {Reference}, Nom: {Nom}, Prix de Vente: {PrixVente:€}, Quantite en Stock: {QuantiteEnStock}";
+        return $"Référence : {NumeroReference}, Nom : {Nom}, Prix de vente : {PrixVente:C}, Quantité en stock : {QuantiteStock}";
     }
 }

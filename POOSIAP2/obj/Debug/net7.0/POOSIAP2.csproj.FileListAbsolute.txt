@@ -1,15 +1,43 @@
-E:\Dév\Mr Thibault\POOSIAP2\POOSIAP2\bin\Debug\net7.0\POOSIAP2.exe
-E:\Dév\Mr Thibault\POOSIAP2\POOSIAP2\bin\Debug\net7.0\POOSIAP2.deps.json
-E:\Dév\Mr Thibault\POOSIAP2\POOSIAP2\bin\Debug\net7.0\POOSIAP2.runtimeconfig.json
-E:\Dév\Mr Thibault\POOSIAP2\POOSIAP2\bin\Debug\net7.0\POOSIAP2.dll
-E:\Dév\Mr Thibault\POOSIAP2\POOSIAP2\bin\Debug\net7.0\POOSIAP2.pdb
-E:\Dév\Mr Thibault\POOSIAP2\POOSIAP2\obj\Debug\net7.0\POOSIAP2.csproj.AssemblyReference.cache
-E:\Dév\Mr Thibault\POOSIAP2\POOSIAP2\obj\Debug\net7.0\POOSIAP2.GeneratedMSBuildEditorConfig.editorconfig
-E:\Dév\Mr Thibault\POOSIAP2\POOSIAP2\obj\Debug\net7.0\POOSIAP2.AssemblyInfoInputs.cache
-E:\Dév\Mr Thibault\POOSIAP2\POOSIAP2\obj\Debug\net7.0\POOSIAP2.AssemblyInfo.cs
-E:\Dév\Mr Thibault\POOSIAP2\POOSIAP2\obj\Debug\net7.0\POOSIAP2.csproj.CoreCompileInputs.cache
-E:\Dév\Mr Thibault\POOSIAP2\POOSIAP2\obj\Debug\net7.0\POOSIAP2.dll
-E:\Dév\Mr Thibault\POOSIAP2\POOSIAP2\obj\Debug\net7.0\refint\POOSIAP2.dll
-E:\Dév\Mr Thibault\POOSIAP2\POOSIAP2\obj\Debug\net7.0\POOSIAP2.pdb
-E:\Dév\Mr Thibault\POOSIAP2\POOSIAP2\obj\Debug\net7.0\POOSIAP2.genruntimeconfig.cache
-E:\Dév\Mr Thibault\POOSIAP2\POOSIAP2\obj\Debug\net7.0\ref\POOSIAP2.dll
+E:/Dév/Mr Thibault/POOSIAP2/POOSIAP2/bin/Debug/net7.0/POOSIAP2.exe
+E:/Dév/Mr Thibault/POOSIAP2/POOSIAP2/bin/Debug/net7.0/POOSIAP2.deps.json
+E:/Dév/Mr Thibault/POOSIAP2/POOSIAP2/bin/Debug/net7.0/POOSIAP2.runtimeconfig.json
+E:/Dév/Mr Thibault/POOSIAP2/POOSIAP2/bin/Debug/net7.0/POOSIAP2.dll
+E:/Dév/Mr Thibault/POOSIAP2/POOSIAP2/bin/Debug/net7.0/POOSIAP2.pdb
+E:/Dév/Mr Thibault/POOSIAP2/POOSIAP2/obj/Debug/net7.0/POOSIAP2.csproj.AssemblyReference.cache
+E:/Dév/Mr Thibault/POOSIAP2/POOSIAP2/obj/Debug/net7.0/POOSIAP2.GeneratedMSBuildEditorConfig.editorconfig
+E:/Dév/Mr Thibault/POOSIAP2/POOSIAP2/obj/Debug/net7.0/POOSIAP2.AssemblyInfoInputs.cache
+E:/Dév/Mr Thibault/POOSIAP2/POOSIAP2/obj/Debug/net7.0/POOSIAP2.AssemblyInfo.cs
+E:/Dév/Mr Thibault/POOSIAP2/POOSIAP2/obj/Debug/net7.0/POOSIAP2.csproj.CoreCompileInputs.cache
+E:/Dév/Mr Thibault/POOSIAP2/POOSIAP2/obj/Debug/net7.0/POOSIAP2.dll
+E:/Dév/Mr Thibault/POOSIAP2/POOSIAP2/obj/Debug/net7.0/refint/POOSIAP2.dll
+E:/Dév/Mr Thibault/POOSIAP2/POOSIAP2/obj/Debug/net7.0/POOSIAP2.pdb
+E:/Dév/Mr Thibault/POOSIAP2/POOSIAP2/obj/Debug/net7.0/POOSIAP2.genruntimeconfig.cache
+E:/Dév/Mr Thibault/POOSIAP2/POOSIAP2/obj/Debug/net7.0/ref/POOSIAP2.dll
+/Users/lpichon/Code/Thibault/POOSIAP2/obj/Debug/net7.0/POOSIAP2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lpichon/Code/Thibault/POOSIAP2/obj/Debug/net7.0/POOSIAP2.AssemblyInfoInputs.cache
+/Users/lpichon/Code/Thibault/POOSIAP2/obj/Debug/net7.0/POOSIAP2.AssemblyInfo.cs
+/Users/lpichon/Code/Thibault/POOSIAP2/obj/Debug/net7.0/POOSIAP2.csproj.CoreCompileInputs.cache
+/Users/lpichon/Code/Thibault/POOSIAP2/obj/Debug/net7.0/POOSIAP2.dll
+/Users/lpichon/Code/Thibault/POOSIAP2/obj/Debug/net7.0/refint/POOSIAP2.dll
+/Users/lpichon/Code/Thibault/POOSIAP2/obj/Debug/net7.0/POOSIAP2.pdb
+/Users/lpichon/Code/Thibault/POOSIAP2/bin/Debug/net7.0/POOSIAP2
+/Users/lpichon/Code/Thibault/POOSIAP2/bin/Debug/net7.0/POOSIAP2.deps.json
+/Users/lpichon/Code/Thibault/POOSIAP2/bin/Debug/net7.0/POOSIAP2.runtimeconfig.json
+/Users/lpichon/Code/Thibault/POOSIAP2/bin/Debug/net7.0/POOSIAP2.dll
+/Users/lpichon/Code/Thibault/POOSIAP2/bin/Debug/net7.0/POOSIAP2.pdb
+/Users/lpichon/Code/Thibault/POOSIAP2/obj/Debug/net7.0/POOSIAP2.genruntimeconfig.cache
+/Users/lpichon/Code/Thibault/POOSIAP2/obj/Debug/net7.0/ref/POOSIAP2.dll
+/Volumes/CT1000P3 PSSD8 Media/Code/Thibault/POOSIAP2/bin/Debug/net7.0/POOSIAP2
+/Volumes/CT1000P3 PSSD8 Media/Code/Thibault/POOSIAP2/bin/Debug/net7.0/POOSIAP2.deps.json
+/Volumes/CT1000P3 PSSD8 Media/Code/Thibault/POOSIAP2/bin/Debug/net7.0/POOSIAP2.runtimeconfig.json
+/Volumes/CT1000P3 PSSD8 Media/Code/Thibault/POOSIAP2/bin/Debug/net7.0/POOSIAP2.dll
+/Volumes/CT1000P3 PSSD8 Media/Code/Thibault/POOSIAP2/bin/Debug/net7.0/POOSIAP2.pdb
+/Volumes/CT1000P3 PSSD8 Media/Code/Thibault/POOSIAP2/obj/Debug/net7.0/POOSIAP2.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/CT1000P3 PSSD8 Media/Code/Thibault/POOSIAP2/obj/Debug/net7.0/POOSIAP2.AssemblyInfoInputs.cache
+/Volumes/CT1000P3 PSSD8 Media/Code/Thibault/POOSIAP2/obj/Debug/net7.0/POOSIAP2.AssemblyInfo.cs
+/Volumes/CT1000P3 PSSD8 Media/Code/Thibault/POOSIAP2/obj/Debug/net7.0/POOSIAP2.csproj.CoreCompileInputs.cache
+/Volumes/CT1000P3 PSSD8 Media/Code/Thibault/POOSIAP2/obj/Debug/net7.0/POOSIAP2.dll
+/Volumes/CT1000P3 PSSD8 Media/Code/Thibault/POOSIAP2/obj/Debug/net7.0/refint/POOSIAP2.dll
+/Volumes/CT1000P3 PSSD8 Media/Code/Thibault/POOSIAP2/obj/Debug/net7.0/POOSIAP2.pdb
+/Volumes/CT1000P3 PSSD8 Media/Code/Thibault/POOSIAP2/obj/Debug/net7.0/POOSIAP2.genruntimeconfig.cache
+/Volumes/CT1000P3 PSSD8 Media/Code/Thibault/POOSIAP2/obj/Debug/net7.0/ref/POOSIAP2.dll

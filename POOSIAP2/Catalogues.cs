@@ -1,90 +1,119 @@
-﻿class Catalogue
-{
-    public int ID { get; set; }
-    public string Libelle { get; set; }
-    public List<Article> Articles { get; set; }
-    public string Categorie { get; set; }
+﻿using System;
+using System.Collections.Generic;
 
-    public Catalogue(int id, string libelle, string categorie)
+class Catalogue
+{
+    public int ID { get; }
+    public string Libelle { get; set; }
+    public Categorie Categorie { get; set; }
+    public List<Article> Articles { get; }
+    
+    private static List<Catalogue> tousLesCatalogues = new List<Catalogue>();
+
+    public Catalogue(int id, string libelle, Categorie categorie)
     {
         ID = id;
         Libelle = libelle;
-        Articles = new List<Article>();
         Categorie = categorie;
+        Articles = new List<Article>();
     }
 
-    static void CreerCatalogue()
+    // Méthode pour ajouter un article au catalogue
+    public void AjouterArticle(Article article)
     {
-        Console.WriteLine("Création d'un nouveau catalogue :");
-        Console.Write("ID du catalogue : ");
-        int id = int.Parse(Console.ReadLine());
+        Articles.Add(article);
+    }
 
-        if (CatalogueExiste(id))
+    // Méthode pour éditer un article dans le catalogue
+    public void EditerArticle(Article article)
+    {
+        // Recherche de l'article par numéro de référence
+        Article articleExist = Articles.Find(a => a.NumeroReference == article.NumeroReference);
+
+        if (articleExist != null)
         {
-            Console.WriteLine("Un catalogue avec cet ID existe déjà.");
+            // Mettre à jour les attributs de l'article existant
+            articleExist.Nom = article.Nom;
+            articleExist.PrixVente = article.PrixVente;
+            articleExist.QuantiteStock = article.QuantiteStock;
         }
         else
         {
-            Console.Write("Libellé du catalogue : ");
-            string libelle = Console.ReadLine();
-            Console.Write("Catégorie du catalogue (1 ou 2) : ");
-            int categorieID = int.Parse(Console.ReadLine());
-
-            if (categories.Any(c => c.ID == categorieID))
-            {
-                catalogues.Add(new Catalogue(id, libelle, categories.First(c => c.ID == categorieID).Libelle));
-                Console.WriteLine("Catalogue créé avec succès.");
-            }
-            else
-            {
-                Console.WriteLine("Catégorie invalide.");
-            }
+            Console.WriteLine("Article non trouvé dans le catalogue.");
         }
     }
 
-    static void ModifierCatalogue()
+    // Méthode pour supprimer un article du catalogue par référence
+    public void SupprimerArticleParReference(string reference)
     {
-        Console.WriteLine("Modification d'un catalogue :");
-        Console.Write("ID du catalogue à modifier : ");
-        int id = int.Parse(Console.ReadLine());
-
-        Catalogue catalogue = catalogues.FirstOrDefault(c => c.ID == id);
-
-        if (catalogue != null)
+        Article articleASupprimer = Articles.Find(a => a.NumeroReference == reference);
+        if (articleASupprimer != null)
         {
-            Console.Write("Nouveau libellé : ");
-            string nouveauLibelle = Console.ReadLine();
-            catalogue.Libelle = nouveauLibelle;
-
-            Console.WriteLine("Catalogue modifié avec succès.");
+            Articles.Remove(articleASupprimer);
+            Console.WriteLine("Article supprimé avec succès.");
         }
         else
         {
-            Console.WriteLine("Catalogue introuvable.");
+            Console.WriteLine("Article non trouvé dans le catalogue.");
         }
     }
 
-    static void SupprimerCatalogue()
+    // Méthode pour rechercher un article par référence
+    public Article RechercherArticleParReference(string reference)
     {
-        Console.WriteLine("Suppression d'un catalogue :");
-        Console.Write("ID du catalogue à supprimer : ");
-        int id = int.Parse(Console.ReadLine());
+        return Articles.Find(a => a.NumeroReference == reference);
+    }
 
-        Catalogue catalogue = catalogues.FirstOrDefault(c => c.ID == id);
+    // Méthode pour rechercher un article par nom
+    public List<Article> RechercherArticlesParNom(string nom)
+    {
+        return Articles.FindAll(a => a.Nom.Equals(nom, StringComparison.OrdinalIgnoreCase));
+    }
 
-        if (catalogue != null)
+    // Méthode pour afficher tous les articles du catalogue
+    public void AfficherTousLesArticles()
+    {
+        Console.WriteLine($"Articles dans le catalogue {Libelle}:");
+        foreach (var article in Articles)
         {
-            catalogues.Remove(catalogue);
-            Console.WriteLine("Catalogue supprimé avec succès.");
+            Console.WriteLine(article.ToString());
         }
-        else
-        {
-            Console.WriteLine("Catalogue introuvable.");
-        }
+    }
+
+    // Méthode pour rechercher tous les articles d'un catalogue par intervalle de prix de vente
+    public List<Article> RechercherArticlesParIntervallePrix(double prixMin, double prixMax)
+    {
+        return Articles.FindAll(a => a.PrixVente >= prixMin && a.PrixVente <= prixMax);
+    }
+    
+    public static Catalogue CreerCatalogue(int id, string libelle, Categorie categorie)
+    {
+        Catalogue nouveauCatalogue = new Catalogue(id, libelle, categorie);
+        tousLesCatalogues.Add(nouveauCatalogue);
+        return nouveauCatalogue;
+    }
+
+    // Méthode pour modifier les attributs d'un catalogue
+    public void ModifierCatalogue(string nouveauLibelle, Categorie nouvelleCategorie)
+    {
+        Libelle = nouveauLibelle;
+        Categorie = nouvelleCategorie;
+    }
+
+    // Méthode pour supprimer le catalogue actuel
+    public void SupprimerCatalogue()
+    {
+        tousLesCatalogues.Remove(this);
+    }
+
+    // Méthode pour obtenir tous les catalogues
+    public static List<Catalogue> ObtenirTousLesCatalogues()
+    {
+        return tousLesCatalogues;
     }
 
     public override string ToString()
     {
-        return $"ID: {ID}, Libelle: {Libelle}, Categorie: {Categorie}";
+        return $"{ID} - {Libelle} ({Categorie.Libelle})";
     }
 }
