@@ -26,8 +26,14 @@ class Program
             Console.WriteLine("1. Créer un catalogue");
             Console.WriteLine("2. Modifier un catalogue");
             Console.WriteLine("3. Supprimer un catalogue");
-            Console.WriteLine("4. Afficher tous les catalogues");
-            Console.WriteLine("5. Quitter");
+            Console.WriteLine("4. Créer un article dans un catalogue");
+            Console.WriteLine("5. Modifier un article dans un catalogue");
+            Console.WriteLine("6. Supprimer un article dans un catalogue");
+            Console.WriteLine("7. Rechercher un article par référence dans un catalogue");
+            Console.WriteLine("8 .Ajouter un article au stock dans un catalogue en vérifiant l'unicité de la référence");
+            Console.WriteLine("9. Recherche un article par nom dans un catalogue");
+            Console.WriteLine("10. Afficher tous les catalogues");
+            Console.WriteLine("Q. Quitter");
 
             string choix = Console.ReadLine();
 
@@ -43,11 +49,17 @@ class Program
                     SupprimerCatalogue();
                     break;
                 case "4":
-                    AfficherTousLesCatalogues();
+                    AjouterArticle();
                     break;
                 case "5":
+                    M
+                case "10":
+                    AfficherTousLesCatalogues();
+                    break;
+                case "Q":
                     quitter = true;
                     break;
+                    
                 default:
                     Console.WriteLine("Choix invalide. Veuillez réessayer.");
                     break;
@@ -74,7 +86,7 @@ class Program
         int categorieId = int.Parse(Console.ReadLine());
 
         // Recherchez la catégorie correspondante
-        Categorie categorie = toutesLesCategories.Find(c => c.ID == categorieId);
+        categorie = toutesLesCategories.Find(c => c.ID == categorieId);
 
         if (categorie == null)
         {
