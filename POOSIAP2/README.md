@@ -9,6 +9,7 @@
 <p align="center">
 <img src="https://img.shields.io/badge/EditorConfig-FEFEFE.svg?style&logo=EditorConfig&logoColor=black" alt="EditorConfig" />
 <img src="https://img.shields.io/badge/JSON-000000.svg?style&logo=JSON&logoColor=white" alt="JSON" />
+<img src="https://img.shields.io/badge/Markdown-000000.svg?style&logo=Markdown&logoColor=white" alt="Markdown" />
 </p>
 <img src="https://img.shields.io/github/languages/top/Orisiss/Thibault.git?style&color=5D6D7E" alt="GitHub top language" />
 <img src="https://img.shields.io/github/languages/code-size/Orisiss/Thibault.git?style&color=5D6D7E" alt="GitHub code size in bytes" />
@@ -67,10 +68,7 @@ HTTPStatus Exception: 429
 
 | File                                                                                          | Summary                   |
 | ---                                                                                           | ---                       |
-| [Categories.cs](https://github.com/Orisiss/Thibault.git/blob/main/POOSIAP2/Categories.cs)     | HTTPStatus Exception: 429 |
 | [POOSIAP2.csproj](https://github.com/Orisiss/Thibault.git/blob/main/POOSIAP2/POOSIAP2.csproj) | HTTPStatus Exception: 429 |
-| [Catalogues.cs](https://github.com/Orisiss/Thibault.git/blob/main/POOSIAP2/Catalogues.cs)     | HTTPStatus Exception: 429 |
-| [Articles.cs](https://github.com/Orisiss/Thibault.git/blob/main/POOSIAP2/Articles.cs)         | HTTPStatus Exception: 429 |
 | [Program.cs](https://github.com/Orisiss/Thibault.git/blob/main/POOSIAP2/Program.cs)           | HTTPStatus Exception: 429 |
 
 </details>
